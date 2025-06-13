@@ -58,4 +58,4 @@
 
         Quando você abre a lista, tudo reaparece automaticamente
 
-Para rodar o aplicativo deve-se dar npm install no caminho root da aplicação e no server, primeiramente deve-se rodar node server.js na pasta do server para iniciar a api, e no caminho base rode o comando: npm start, para iniciar o site após isso a aplicação irá hospedar um site no localhost na porta 5000
+Para rodar o aplicativo deve-se dar npm install no caminho root da aplicação e no server, primeiramente deve-se rodar node server.js na pasta do server para iniciar a api, e no caminho base rode o comando: npm start, para iniciar o site após isso a aplicação irá hospedar um site no localhost na porta 3000
