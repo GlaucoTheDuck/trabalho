@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+1. Cadastro Fácil de Itens
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+    O que faz: Você pode registrar qualquer coisa que quiser lembrar
 
-## Available Scripts
+    Como funciona:
 
-In the project directory, you can run:
+        Digite um nome (ex: "Comprar leite")
 
-### `npm start`
+        Adicione uma descrição (ex: "Preciso comprar 2 caixas")
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+        Clique em "Salvar" e pronto!
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    Proteção contra erros: Se esquecer de preencher algum campo, o sistema avisa com mensagens vermelhas.
 
-### `npm test`
+   2. Lista Organizada
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    O que faz: Mostra tudo que você cadastrou, como um mural digital
 
-### `npm run build`
+    Como funciona:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+        Todos os itens aparecem em cartões visuais
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+        Cada cartão mostra o nome e a descrição que você digitou
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+        Se não tiver nada cadastrado, aparece uma mensagem amigável
 
-### `npm run eject`
+3. Navegação Simples
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    O que faz: Dois botões que te levam para onde você precisa
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    Como funciona:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+        Botão "Formulário": Para cadastrar coisas novas
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+        Botão "Lista de Itens": Para ver tudo que já cadastrou
 
-## Learn More
+        Os botões ficam sempre no topo da tela, fáceis de encontrar
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4.  Funciona em Qualquer Aparelho
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    O que faz: Ajusta automaticamente para celular, tablet ou computador
 
-### Code Splitting
+    Como funciona:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+        No celular: Tudo fica em uma coluna só, fácil de ler
 
-### Analyzing the Bundle Size
+        No computador: Os itens aparecem em um layout mais espaçoso
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+        Os botões e textos aumentam/diminuem conforme o tamanho da tela
 
-### Making a Progressive Web App
+5.  Salvamento Automático
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+    O que faz: Guarda tudo que você cadastra, mesmo se fechar o navegador
 
-### Advanced Configuration
+    Como funciona:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+        Tudo fica armazenado num "caderno digital" (banco de dados)
 
-### Deployment
+        Quando você abre a lista, tudo reaparece automaticamente
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Para rodar o aplicativo deve-se dar npm install no caminho root da aplicação e no server, primeiramente deve-se rodar node server.js na pasta do server para iniciar a api, e no caminho base rode o comando: npm start, para iniciar o site após isso a aplicação irá hospedar um site no localhost na porta 5000
